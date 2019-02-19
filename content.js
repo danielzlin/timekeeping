@@ -1,36 +1,4 @@
 /*
-Specs
-1. Research and implement the event handlers you need to use to understand when a user has:
-Minimized Chrome
-Closed Chrome
-Opened a new tab
-Visited facebook.com
-Exit facebook.com
-
-2. Write out logic to determine how much time a user spends on a tab based on event handlers implemented in step 1.
-
-3. Once a user is on facebook.com, use storage for the current user’s relevant time values (time spent on Facebook).
-
-4. Scrape DOMs of pages visited (i.e. someone’s profile). From these DOMs,
-scrape for profile owner’s name and profile picture. Store these in similar structures as 3.
-
-5. When the user clicks on the chrome extension icon, open a new tab that displays a webpage that you created.
-This page will display:
-        a. How much time the current browser owner has spent on fb in the context of the current day.
-        b. All the pages they visited with how long they spent on that page.
-        c. The profile pictures render next to each page visited.
-
-*/
-
-
-// Add to manifest.json if you want to override
-// every time a new tab is opened
-/**"chrome_url_overrides": {
-    "newtab" : "popup.html" },
-**/
-
-
-/*
 TYPE chrome.storage.local.clear() to clear the new tab of existing events!
 */
 
